@@ -4,8 +4,12 @@
   --navlink-color: #B9C6AE;
 }
 
+*{
+box-sizing:border-box;
+}
+
 h1{
-color: var(--darkblue)
+color: var(--darkblue);
 }
 
 section{
@@ -15,7 +19,7 @@ transition: margin-right 2s;
 }
 
 main{
-background: linear-gradient(#e66465)
+background: linear-gradient(#e66465);
 }
 
 .flex-container {
